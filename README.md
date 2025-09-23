@@ -1,0 +1,1 @@
+I wrote this code for my thesis while studying at the Faculty of Tropical AgriSciences at the Czech University of Life Sciences. The code is divided into three parts and the whole process can be performed by running the main.py file
