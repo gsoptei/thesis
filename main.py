@@ -10,7 +10,8 @@ validation_year = LIVING_YEAR
 desc_string = "gergely_ocsvm_entire_data"
 
 # load points for training data
-data_file = Path('/mnt/d/Downloads/Suli/Tropical Forestry and Agroforestry/MSc/Project/Project/Data/polygon/points_%s.shp' % base_year)
+# insert your own path
+data_file = Path('' % base_year)
 
 results_path = Path("%s_res_%s" % (datetime.now().strftime("%Y%m%d-%H%M%S"), desc_string))
 results_path.mkdir(parents=True, exist_ok=True)
