@@ -55,7 +55,7 @@ def main(year, results_path=results_path):
     results_desc_file.write(f'Phenology variables: {PHEN_VARS} \n')
 
     # load data for testing
-    testing_points_gdf = gpd.read_file('/mnt/d/Downloads/Suli/Tropical Forestry and Agroforestry/MSc/Project/Project/Data/polygon/points_%s.shp' % year)
+    testing_points_gdf = gpd.read_file('path/to/your/points/points_%s.shp' % year)
     test_gdf = extract_raster_values_at_points(year, RASTERS, testing_points_gdf, PHEN_VARS)
 
     # format test data
